@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    display: flex;
+    background-color: rgb(51, 153, 255);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 7vw;
+}
+nav div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px
+}
+#tarjeta-dias {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#tarjeta-dias div {
+    margin: 10px;
+    border: 1px solid rgb(249, 249, 249);
+    background-color: rgb(249, 249, 249);
+    box-shadow: 0px 2px 2px rgb(196, 191, 191);
+    border-radius: 5px;
+    padding: 30px;
+    text-align: center;
+    height: 12vw;
+}
+#contenedor {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+img {
+    width: 12vh;
+    height: 6vw;
+}
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    padding: 1vh;
+    text-align: center;
+}
+footer button {
+    background-color: gold;
+    border-radius: 5px;
+    width: 3vw;
+    height: 1.5vw;
+}
+.subcontenedor {
+    text-align: center;
+    flex-direction: column;
+}
+#Osorno1 {
+    display: none;
+}
+#PuertoMontt1 {
+    display: none;
+}
+#PuertoVaras1 {
+    display: none;
+}
+#Valdivia1 {
+    display: none;
+}
+#RioNegro1 {
+    display: none;
+}
